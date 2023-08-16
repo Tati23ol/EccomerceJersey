@@ -1,0 +1,78 @@
+﻿@model List<teste5.Models.ProdutosPagina>
+@{
+    ViewBag.Title = "Index";
+    <link rel="stylesheet" href="~/Content/Inicial.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="~/scripts/JavaScript.js"></script>
+}
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" class="img_banner">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img src="~/Content/img/banner2.jpg" class="d-block w-150" alt="1">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="~/Content/img/banner-ConversImagem.jpg" class="d-block w-150" alt="2">
+        </div>
+        <div class="carousel-item">
+            <img src="~/Content/img/banner2.jpg" class="d-block w-150" alt="3">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<div class="topo">
+    <h1>Jerseys<span>Ball</span></h1>
+</div>
+<div class="main" id="main">
+    <div class="container">
+        <div class="row">
+            @foreach (var produto in Model)
+            {
+                <div class="col-md-3">
+                    <div class="card-produto">
+                        <div class="container-img">
+                            <img src="@produto.URL" alt="JerseyCeltics" />
+                        </div>
+                        <div class="container-texto">
+                            <h3>@produto.Nome_Produto ID= @produto.ID_Produto</h3>
+                            <p>@produto.Descricao</p>
+                            <small>NBA</small>
+                            <div>
+                                <span>R$@produto.Valor_produto</span>
+                                <button class="btn_carrinho" onclick="PegandoOId('@produto.ID_Produto')">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<div id="carrino" style="display: none"></div>
+<script>
+    function PegandoOId(ID_Produto) {
+        $.get('@Url.Action("Index", "Pagina")', {
+            ID_Produto: ID_Produto,
+        }).done(function (data) {
+            $('#main').slideUp();
+            $('#carouselExampleInterval').slideUp();
+            $('#carrino').html(data).slideDown();
+            console.log('Dados enviados com sucesso para o servidor ');
+        }).fail(function (xhr) {
+            console.log(xhr.responseText);
+        });
+    }
+</script>

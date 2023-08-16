@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Index";
+    <link rel="stylesheet" href="~/Content/Add.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+}
+
+
+                                                @*PAGINA INDEX PRODUTOS*@
+<div class="container">
+    <form class="registration-form">
+        <h1>Adicionando Produto Novo</h1>
+        <h2>Cadastro</h2>
+        <label for="nome">Nome Do Produto:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="Descricao">Descricao:</label>
+        <input type="text" id="Descricao" name="Descricao" required>
+
+        <label for="URL">URL:</label>
+        <input type="text" id="URL" name="URL" required>
+
+        <label for="QTDA">Quantidade: </label>
+        <input type="text" id="QTDA" name="QTDA" required>
+
+        <label for="Valor">Valor Do Produto:</label>
+        <input type="number" id="Valor" name="Valor" required>
+
+
+        <button type="button" onclick="PegandoDados()">Cadastrar</button>
+
+    </form>
+</div>
+<footer>teste</footer>
+<script>
+
+    function PegandoDados() {
+        var batata = {
+            Nome_Produto: $("#nome").val(),
+            Descricao: $("#Descricao").val(),
+            URL: $("#URL").val(),
+            QTDA: $("#QTDA").val(),
+            Valor_produto: $("#Valor").val()
+        }
+
+        $.post('@Url.Action("Post", "Add")',
+            batata
+        ).done(function (data) {
+            console.log('Dados enviados com sucesso para o servidor ');
+        }).fail(function (xhr) {
+            console.log(xhr.responseText);
+        });
+    }
+
+</script>

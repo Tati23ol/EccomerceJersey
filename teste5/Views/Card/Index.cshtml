@@ -1,0 +1,79 @@
+﻿@model List<teste5.Models.CardProdutos>
+
+@{
+    ViewBag.Title = "Index";
+    <link rel="stylesheet" href="~/Content/Carrinho.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+}
+                                                @*CARRINHO DE COMPRAS*@
+
+<div id="teste">
+    @foreach (var produto in Model)
+    {
+        <div class="teste2">
+            <h2>@produto.Nome_Produto</h2>
+            <p>@produto.ID_Produto</p>
+            <img src="@produto.URL" />
+            <div class="qtda">
+                <p>Quantidade</p>
+                <select name="selectd" class="mexendo_cor select-quantidade" onclick="ObterValorSelect(), Alterando_qtda('@produto.ID_Produto')">
+                    <option value="1" class="mexendo_cor" selected>1</option>
+                    <option value="2" class="mexendo_cor">2</option>
+                    <option value="3" class="mexendo_cor">3</option>
+                    <option value="4" class="mexendo_cor">4</option>
+                    <option value="5" class="mexendo_cor">5</option>
+                    <option value="6" class="mexendo_cor">6</option>
+                </select>
+
+            </div>
+            <button id="btn_tirar" onclick="RemoverCarrinho('@produto.ID_Produto')">Tirar Do Carrinho</button>
+
+        </div>
+    }
+</div>
+
+
+<div id="menu_total">
+    <p>Itens Carrinho</p>
+    
+    @{
+        decimal valorTotal = 0;
+        foreach (var produto in Model)
+        {
+            valorTotal += Convert.ToDecimal(produto.Valor_Produto);
+        }
+    }
+    <span>Quantidade de Produtos: </span>
+    <span>Valor Total: @valorTotal</span>
+    <button id="Bnt_Pagar" >Pagar</button>
+</div>
+
+
+<script>
+    var QTDA;
+    function ObterValorSelect() {
+        QTDA = $(".select-quantidade").val();
+    }
+    function Alterando_qtda(ID_Produto) {
+        $.get('@Url.Action("AlterandoQuatidade", "Card")', {
+            ID_Produto: ID_Produto,
+            QTDA: QTDA
+        }).done(function (data) {
+            console.log('Dados enviados com sucesso para o servidor ' + QTDA);
+        }).fail(function (xhr) {
+            console.log(xhr.responseText);
+        });
+    }
+
+    function RemoverCarrinho(ID_Produto) {
+        $.get('@Url.Action("RemoveCard", "Card")', {
+            ID_Produto: ID_Produto,
+        }).done(function (data) {
+            $(location).attr('href', 'http://localhost:10909/Card/Index');
+            console.log('Dados enviados com sucesso para o servidor ');
+        }).fail(function (xhr) {
+            console.log(xhr.responseText);
+        });
+    }
+</script>

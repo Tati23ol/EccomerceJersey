@@ -1,0 +1,138 @@
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\ApplicationInsights.config
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\csc.exe
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\vbc.exe
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\VBCSCompiler.exe
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\teste5.dll.config
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\teste5.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\teste5.pdb
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.Web.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.ApplicationInsights.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Helpers.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Mvc.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Razor.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Webpages.Deployment.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Webpages.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Webpages.Razor.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.Web.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.ApplicationInsights.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Razor.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Webpages.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Webpages.Deployment.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Webpages.Razor.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Helpers.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\bin\System.Web.Mvc.xml
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\obj\Debug\teste5.dll
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\obj\Debug\teste5.pdb
+C:\Users\smn\documents\visual studio 2015\Projects\teste5\teste5\obj\Debug\teste5.csprojResolveAssemblyReference.cache
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\ApplicationInsights.config
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\csc.exe
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\vbc.exe
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\VBCSCompiler.exe
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\teste5.dll.config
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\teste5.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\teste5.pdb
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.Web.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.ApplicationInsights.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Helpers.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Mvc.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Razor.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Webpages.Deployment.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Webpages.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Webpages.Razor.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.Web.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.ApplicationInsights.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Razor.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Webpages.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Webpages.Deployment.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Webpages.Razor.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Helpers.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\bin\System.Web.Mvc.xml
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\obj\Debug\teste5.csprojResolveAssemblyReference.cache
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\obj\Debug\teste5.dll
+C:\Users\tatia\OneDrive\Área de Trabalho\C#\teste5\teste5\obj\Debug\teste5.pdb
+C:\Users\smn\Desktop\teste55\teste5\bin\ApplicationInsights.config
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\csc.exe
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\vbc.exe
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\VBCSCompiler.exe
+C:\Users\smn\Desktop\teste55\teste5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\smn\Desktop\teste55\teste5\bin\teste5.dll.config
+C:\Users\smn\Desktop\teste55\teste5\bin\teste5.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\teste5.pdb
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.Web.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.ApplicationInsights.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Helpers.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Mvc.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Razor.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Webpages.Deployment.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Webpages.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Webpages.Razor.dll
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.Web.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.ApplicationInsights.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Razor.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Webpages.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Webpages.Deployment.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Webpages.Razor.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Helpers.xml
+C:\Users\smn\Desktop\teste55\teste5\bin\System.Web.Mvc.xml
+C:\Users\smn\Desktop\teste55\teste5\obj\Debug\teste5.csprojResolveAssemblyReference.cache
+C:\Users\smn\Desktop\teste55\teste5\obj\Debug\teste5.dll
+C:\Users\smn\Desktop\teste55\teste5\obj\Debug\teste5.pdb

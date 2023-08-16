@@ -1,0 +1,60 @@
+﻿@model List<teste5.Models.ProdutoPaginaIndividual>
+@{
+    Layout = null;
+    <link rel="stylesheet" href="~/Content/Pagina.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+}
+
+                                                @*PAGINA QUE MOSTRA OS ITENS*@
+<div id="teste">
+    @foreach (var produto in Model)
+    {
+        <div class="produto">
+            <h2>@produto.Nome_Produto</h2>
+            <p>R$@produto.Valor_produto</p>
+            <p>Quantidade disponivel: @produto.QTDA</p>
+            <p>Descrição @produto.Descricao</p>
+            <img src="@produto.URL" />
+            <button onclick="Fechando()">FECHAR</button>
+            <button onclick="PegandoOId(@produto.ID_Produto)">Adicionar Ao carrinho</button>
+            <div class="qtda">
+                <p>Quantidade</p>
+                <select name="selectd" id="produto">
+                    <option value="1" class="mexendo_cor" selected>1</option>
+                    <option value="2" class="mexendo_cor">2</option>
+                    <option value="3" class="mexendo_cor">3</option>
+                    <option value="4" class="mexendo_cor">4</option>
+                    <option value="5" class="mexendo_cor">5</option>
+                    <option value="6" class="mexendo_cor">6</option>
+                </select>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    $(document).ready(function () {
+        $(".qtda").click(function () {
+            var QTDA = $(this).find('#produto option:selected').val();
+            console.log(QTDA);
+        });
+    });
+
+    function Fechando() {
+        $(location).attr('href', 'http://localhost:10909/');
+    }
+
+    function PegandoOId(ID_Produto) {
+        $.get('@Url.Action("Index", "Card")', {
+            ID_Produto: ID_Produto,
+        }).done(function (data) {
+            $(location).attr('href', 'http://localhost:10909/');
+            console.log('Dados enviados com sucesso para o servidor ');
+        }).fail(function (xhr) {
+            console.log(xhr.responseText);
+        });
+    }
+</script>
+
+

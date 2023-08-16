@@ -1,0 +1,44 @@
+﻿body {
+    font-size: 11px;
+    background-color: #0D0D0D;
+    margin: 0;
+    padding: 0;
+    align-items:center;
+    text-align:center;
+    font-size:14px;
+}
+#menu_total{
+    background-color: #005148;
+    color:white;
+}
+button{
+    background-color: #005148;
+    color:white;
+}
+footer{
+    margin-bottom:0;
+}
+img{
+    height:400px;
+    width:400px;
+    margin-bottom:25px;
+}
+
+.teste2 {
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.mexendo_cor{
+    background-color:#005148;
+
+}
+
+p{
+    align-content:center;
+    text-align:center;
+}
